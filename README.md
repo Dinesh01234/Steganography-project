@@ -1,10 +1,10 @@
-Steganography Project
+Steganography Project : 
 This project demonstrates a simple approach to steganography using image encryption and decryption with Python.
 
-Overview
+Overview : 
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. In this project, we use Python to hide a secret message inside an image and then retrieve it using decryption.
 
-Features
+Features : 
 Image Encryption: Embeds a secret message inside an image.
 Image Decryption: Retrieves the secret message from the encrypted image.
 
