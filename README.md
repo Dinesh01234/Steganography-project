@@ -69,12 +69,17 @@ def encrypt_image(image_path, message, password):
     
     os.system(f"start {encrypted_image_path}")  # Use 'start' to open the image on Windows
     
-    return encrypted_image_path
-
-if __name__ == "__main__":
+    return encrypted_image_path 
+    
+    if __name__ == "__main__":
+    
     image_path = "mypic.jpg"  # Replace with the correct image path
+    
     message = input("Enter secret message: ")
+    
     password = input("Enter a passcode: ")
+
+    
     encrypt_image(image_path, message, password)
 
     Decryption
