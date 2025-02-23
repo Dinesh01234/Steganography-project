@@ -9,8 +9,8 @@ Image Encryption: Embeds a secret message inside an image.
 Image Decryption: Retrieves the secret message from the encrypted image.
 
 Requirements
-Python 3.x
-OpenCV
+Python 3.x,
+OpenCV,
 OS module
 
 Setup
@@ -35,10 +35,8 @@ python encrypt_image.py
 Sample Code:
 import cv2
 import os
-
 def encrypt_image(image_path, message, password):
     img = cv2.imread(image_path)
-    
     d = {}
     for i in range(255):
         d[chr(i)] = i
