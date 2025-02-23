@@ -14,10 +14,12 @@ OS module
 
 Setup
 1. Clone the repository:
+   
 git clone https://github.com/yourusername/steganography-project.git
 cd steganography-project
 
-2. Install the required dependencies:
+3. Install the required dependencies:
+   
 pip install opencv-python
 
 Usage
