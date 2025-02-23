@@ -80,7 +80,6 @@ def encrypt_image(image_path, message, password):
     
     password = input("Enter a passcode: ")
 
-    
     encrypt_image(image_path, message, password)
     
 
