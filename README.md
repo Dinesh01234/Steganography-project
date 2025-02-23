@@ -43,7 +43,6 @@ def encrypt_image(image_path, message, password):
     d = {}
     for i in range(255):
         d[chr(i)] = i
-
     m, n, z = 0, 0, 0
     for i in range(len(message)):
         img[n, m, z] = d[message[i]]
@@ -68,13 +67,15 @@ To decrypt a message from an encrypted image:
 1. Ensure the encrypted image (encryptedImage.jpg) is in the same directory as your script.
 2. Run the decrypt_image.py script and follow the prompts:
 
+
 python decrypt_image.py
-Enter the length of the secret message and the passcode. If the passcode is correct, the decrypted message will be displayed.
+Enter the length of the secret message and the passcode. 
+If the passcode is correct, the decrypted message will be displayed.
 
 Sample Code:
 
-import cv2
 
+import cv2
 def decrypt_image(image_path, message_length, password):
     img = cv2.imread(image_path)
     
