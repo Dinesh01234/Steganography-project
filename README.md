@@ -120,19 +120,25 @@ def decrypt_image(image_path, message_length, password):
     return message
 
 if __name__ == "__main__":
+
     encrypted_image_path = "encryptedImage.jpg"
+    
     message_length = int(input("Enter the length of the secret message: "))
+    
     password = input("Enter passcode for Decryption: ")
+    
     original_password = input("Enter the original passcode: ")  # Pass the original password from encryption
 
     if password == original_password:
         decrypted_message = decrypt_image(encrypted_image_path, message_length, password)
         print("Decrypted message:", decrypted_message)
+        
     else:
         print("YOU ARE NOT auth")
         
-License
+        
+License :
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+Contributing:
 Contributions are welcome! Please feel free to submit a pull request.
