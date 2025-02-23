@@ -23,7 +23,9 @@ cd steganography-project
 pip install opencv-python
 
 Usage
+
 Encryption
+
 To encrypt a message into an image:
 
 1. Ensure the image is in the same directory as your script.
