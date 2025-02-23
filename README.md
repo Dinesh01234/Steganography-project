@@ -36,6 +36,7 @@ python encrypt_image.py
 3. Enter the secret message and a passcode. The encrypted image will be saved as encryptedImage.jpg.
 
 Sample Code:
+
 import cv2
 import os
 def encrypt_image(image_path, message, password):
@@ -49,7 +50,6 @@ def encrypt_image(image_path, message, password):
         n += 1
         m += 1
         z = (z + 1) % 3
-
     encrypted_image_path = "encryptedImage.jpg"
     cv2.imwrite(encrypted_image_path, img)
     os.system(f"start {encrypted_image_path}")  # Use 'start' to open the image on Windows
