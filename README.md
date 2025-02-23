@@ -34,6 +34,7 @@ To encrypt a message into an image:
 python encrypt_image.py
 
 3. Enter the secret message and a passcode. The encrypted image will be saved as encryptedImage.jpg.
+   
 
 Sample Code:
 
@@ -81,8 +82,10 @@ def encrypt_image(image_path, message, password):
 
     
     encrypt_image(image_path, message, password)
+    
 
     Decryption
+    
 To decrypt a message from an encrypted image:
 
 1. Ensure the encrypted image (encryptedImage.jpg) is in the same directory as your script.
